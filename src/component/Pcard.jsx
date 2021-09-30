@@ -24,12 +24,12 @@ function Pcard(props) {
           <div class="backside">
             <div class="card">
               <div class="card-title" style={customcss}>{props.title}</div>
-              <div class="card-body text-center mt-2">
+              <div class="card-body text-center mt-2 back-card">
                 <p card-text>{props.techStack}</p>
                 <p card-text>{props.description}</p>
-                <a href="#" class="btn Pbtn btn- btn-sm">
+                <a href={props.src} target="_blank" class="btn Pbtn btn- btn-sm">
                   <FaGithub
-                    size="3rem"
+                    size="4rem"
                     style={{ color: "black" }}
                     className="icon2"
                   />

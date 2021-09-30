@@ -14,7 +14,7 @@ function Footer() {
         <div class="main-footer widgets-dark typo-light">
           <div class="container">
             <div id="display" class="row">
-              <div class="col-xs-12 col-sm-6 col-md-2">
+              <div class="col-xs-12 col-sm-6 col-md-2 Smt">
                 <div class="widget subscribe no-box">
                   <h5 class="widget-title">
                     Phone
@@ -31,7 +31,7 @@ function Footer() {
                 </div>
               </div>
 
-              <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="col-xs-12 col-sm-6 col-md-4 Smt">
                 <div class="widget no-box">
                   <h5 class="widget-title">
                     Email
@@ -39,7 +39,7 @@ function Footer() {
                       <MdEmail
                         size="1.5em"
                         style={{ color: "black", marginLeft: "0.5rem" }}
-                        className="icon2 Pview"
+                        className="icon2 Pview Mview"
                       />
                     </a>
                   </h5>
@@ -48,7 +48,7 @@ function Footer() {
                 </div>
               </div>
 
-              <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="col-xs-12 col-sm-6 col-md-3 Smt">
                 <div class="widget no-box">
                   <h5 class="widget-title">
                     <>Follow Me</>
@@ -85,7 +85,7 @@ function Footer() {
                 </div>
               </div>
 
-              <div class="footer-copyright col-xs-12 col-sm-6 col-md-3 mt">
+              <div class="footer-copyright col-lg-3 col-xs-12 col-sm-6 col-md-12 mt Smt Cmt">
                 <div class="copyright">
                   <p> © 2021 Copyright KousikRoy.in</p>
                 </div>

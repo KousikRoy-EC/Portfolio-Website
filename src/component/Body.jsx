@@ -11,7 +11,7 @@ function New() {
             <img className="MainImg2" src={Kousik} />
           </div>
           <div className="flex-2">
-            <h1>Hello</h1>
+            <h1>Hello,</h1>
 
             <h5>
               <strong>A Bit About Me</strong>
@@ -35,7 +35,7 @@ function New() {
                 name="Resume"
                 src="https://drive.google.com/file/d/19Otaz75f7MxoTDAgf9brYEFLbMbOEKiS/view?usp=sharing"
               />
-              <Circle Color={"#f14b38"} name="Project" src="/Projects" />
+              <Circle Color={"rgb(78 189 148)"} name="Project" src="/Projects" />
               <Circle Color={"#85cbcc"} name="Contact" src="/Contact" />
             </span>
           </div>
