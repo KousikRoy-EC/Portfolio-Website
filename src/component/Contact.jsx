@@ -50,15 +50,11 @@ function Contact() {
 
                 />
               </div>
-              <div className="form-group">
-                <input
-                  type="submit"
-                  onClick={BtnClicked}
-                  name="btnSubmit"
-                  className="btnContact Cbtn"
-                  value="Send Message"
-                />
-              </div>
+             
+            
+              <button type="button" class="btn btn-dark Sbtn">Submit</button>
+                
+             
             </div>
             <div className="col-md-12 col-12 col-lg-6 col-xl-6 col-sm-12">
               <div className="form-group">

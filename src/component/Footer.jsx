@@ -18,7 +18,7 @@ function Footer() {
                 <div class="widget subscribe no-box">
                   <h5 class="widget-title">
                     Phone
-                    <a href="tel : 7972390500">
+                    <a href="tel:7972390500">
                       <FaPhoneAlt
                         size="1.1em"
                         style={{ color: "black", marginLeft: "0.5rem" }}
