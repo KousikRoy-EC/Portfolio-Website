@@ -12,63 +12,45 @@ function Contact() {
 
   return (
     <div>
-      <div className="container contact-form">
-        <div className="contact-image">
-          <img
-            src="https://image.ibb.co/kUagtU/rocket_contact.png"
-            alt="rocket_contact"
-          />
-        </div>
-        <form method="post">
-          <h3 className="Chead">{Display ? "Drop Me a Message" : "Message Sent"}</h3>
-          <div className="row">
-            <div className="col-md-12 col-12 col-lg-6 col-xl-6 col-sm-12">
-              <div className="form-group">
-                <input
-                  type="text"
-                  name="txtName"
-                  className="form-control"
-                  placeholder="Your Name *"
-
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  name="txtEmail"
-                  className="form-control"
-                  placeholder="Your Email *"
-
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  name="txtPhone"
-                  className="form-control"
-                  placeholder="Your Phone Number *"
-
-                />
-              </div>
-             
-            
-              <button type="button" class="btn btn-dark Sbtn">Submit</button>
-                
-             
-            </div>
-            <div className="col-md-12 col-12 col-lg-6 col-xl-6 col-sm-12">
-              <div className="form-group">
-                <textarea
-                  name="txtMsg"
-                  className="form-control msg"
-                  placeholder="Your Message *"
-                  style={{ width: "100%", height: "150px" }}
-                ></textarea>
-              </div>
-            </div>
-          </div>
+      <div class="container Ccon">
+   
+    <div class="wrapper animated bounceInLeft">
+      <div class="company-info">
+        <h3 className="cheader">Drop me a Message</h3>
+        <ul>
+          <li><i class="fa fa-map-marker"></i> Bharuch,Gujarat,India</li>
+          <li><i class="fa fa-phone"></i> (91) 7972390500</li>
+          <li><i class="fa fa-envelope"></i> kaushikroy1001@gmail.com</li>
+        </ul>
+      </div>
+      <div class="contact">
+       
+        {/* {{msg}} */}
+        <form method="POST" className="Form" action="Contact">
+          <p>
+            <label>Name</label>
+            <input class="Bnew" type="text" name="name" />
+          </p>
+         
+          <p>
+            <label>Email Address</label>
+            <input class="Bnew" type="email" name="email" />
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input class="Bnew" type="text" name="phone" />
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea class="Bnew" name="message" rows="5"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit"><strong>Send Message </strong></button>
+          </p>
         </form>
       </div>
+    </div>
+  </div>
     </div>
   );
 }

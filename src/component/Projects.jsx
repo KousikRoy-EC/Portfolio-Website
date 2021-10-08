@@ -26,7 +26,7 @@ function Projects() {
               src="https://github.com/KousikRoy-EC/Dragon-Game"
               source={DragonGame}
               title="DragonGame"
-              techStack="Tech Stack : HTML,Css,JS,Bootstrap. &nbsp;"
+              techStack="Tech Stack : HTML,CSS,JS,Bootstrap. &nbsp;"
               description="Developed a Dragon Game which is also known as chrome dino with some additional functionality."
             />
 
@@ -34,22 +34,22 @@ function Projects() {
               src="https://github.com/KousikRoy-EC/Kousik-Roy"
               source={PortFolio}
               title="Portfolio Website"
-              techStack="Tech Stack : React JS,HTML,Css,JS,Bootstrap. &nbsp;"
-              description="Designed and developed my portfolio website using React Js."
+              techStack="Tech Stack : React JS,HTML,CSS,JS,Bootstrap. &nbsp;"
+              description="Designed and developed my portfolio website using React JS."
             />
             <Pcard
               src="https://github.com/KousikRoy-EC/Windws-11-Clone"
               source={Windows11Clone}
               title="Windows 11 Clone"
-              techStack="Tech Stack : HTML,Css,JS,Bootstrap. &nbsp;"
-              description="Clone of Windows 11 using vanilla HTML,Css and js."
+              techStack="Tech Stack : HTML,CSS,JS,Bootstrap. &nbsp;"
+              description="Clone of Windows 11 using vanilla HTML,CSS and JS."
             />
             <Pcard
-              src="https://github.com/KousikRoy-EC/Analog-Clock-using-html-css-Js"
+              src="https://github.com/KousikRoy-EC/Analog-Clock-using-HTML-CSS-JS"
               source={Clock}
               title="Analog Clock"
-              techStack="Tech Stack : HTML,Css,JS,Bootstrap. &nbsp;"
-              description="Designed a Analog Clock using vanilla HTML,Css and Js."
+              techStack="Tech Stack : HTML,CSS,JS,Bootstrap. &nbsp;"
+              description="Designed a Analog Clock using vanilla HTML,CSS and JS."
             />
             <Pcard
               src="https://github.com/KousikRoy-EC/Scientific-Calculator"
@@ -62,15 +62,15 @@ function Projects() {
               src="https://github.com/KousikRoy-EC/Front-end-website-Restaurants-"
               source={WebPage}
               title="Restaurant Website"
-              techStack="Tech Stack : HTML,Css,JS,Bootstrap. &nbsp;"
+              techStack="Tech Stack : HTML,CSS,JS,Bootstrap. &nbsp;"
               description="Designed a front end Restaurant Website."
             />
 
             <Pcard
-              src="https://github.com/KousikRoy-EC/Keeper-Project-Using-React-Js"
+              src="https://github.com/KousikRoy-EC/Keeper-Project-Using-React-JS"
               source={KepperProject}
               title="Kepper Project"
-              techStack="Tech Stack : React JS,HTML,Css,JS,Bootstrap. &nbsp;"
+              techStack="Tech Stack : React JS,HTML,CSS,JS,Bootstrap. &nbsp;"
               description="Developed Keeper Project application to keep note of the important things."
             />
           </div>

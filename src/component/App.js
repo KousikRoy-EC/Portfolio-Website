@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Body from "./Body";
-import Contact from "./Contact";
+import Contact from "./Contact.jsx";
 import Projects from "./Projects";
 
 
