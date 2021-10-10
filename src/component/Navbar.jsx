@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-          <Link class="navbar-brand" to="/Body">
+          <Link class="navbar-brand" to="/Home">
             <span class="dot"></span> <>Kousik Roy</>
           </Link>
 

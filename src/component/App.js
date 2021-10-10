@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Body from "./Body";
-import Contact from "./Contact.jsx";
+import Home from "./Home";
+import Contact from "./Contact.js";
 import Projects from "./Projects";
 
 
@@ -16,11 +16,11 @@ function App() {
     
         <Switch>
           <Route exact path="/">
-            <Body />
+            <Home />
           </Route>
 
-          <Route exact path="/Body">
-            <Body />
+          <Route exact path="/Home">
+            <Home />
           </Route>
           <Route exact path="/Contact">
             <Contact />
