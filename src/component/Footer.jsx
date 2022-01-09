@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 const curryear = new Date();
 
 function Footer() {
+ const curr_year = new Date().getFullYear();
   return (
     <div>
       <hr className="hr" style={{ margin: "0rem 3rem 0rem 3rem" }} />
@@ -87,7 +88,7 @@ function Footer() {
 
               <div class="footer-copyright col-lg-3 col-xs-12 col-sm-6 col-md-12 mt Smt Cmt">
                 <div class="copyright">
-                  <p> © 2021 Copyright kousikroy.co</p>
+                  <p> © {curr_year} Copyright kousikroy.co</p>
                 </div>
               </div>
             </div>
