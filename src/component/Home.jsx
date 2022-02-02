@@ -20,7 +20,7 @@ function New() {
             <span className="card-text">
               <h6>
                 {" "}
-                I am a student possesing an astute character. Pursuing my
+                I am a student possesing an Proactive character. Pursuing my
                 Baechlors in Electronics and Communication from CHARUSAT
                 University. My expertise in the area of responsive design. With
                 every line of code, I strive to make web a beautiful place.
